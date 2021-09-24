@@ -16,7 +16,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400; 
+  scroll-behavior: smooth;}
 
 h1,
 h2,
@@ -1323,7 +1324,7 @@ textarea:focus {
         width: 100%;
         padding: 15px; } }
     .register-now .register-contact-form .forms h4 {
-      margin-bottom: 40px; }
+      margin-bottom: 40px;}
     .register-now .register-contact-form .forms .form-control {
       width: 100%;
       border-radius: 6px;

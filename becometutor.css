@@ -1,0 +1,120 @@
+.register-now {
+    position: relative;
+    z-index: 1;
+    background-repeat: repeat;
+    padding-left: 5%;
+    padding-right: 5%; }
+    @media only screen and (max-width: 767px) {
+      .register-now {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    .register-now::after {
+      background-color: rgb(255, 236, 202);
+      top: 0;
+      left: 0;
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      z-index: -1; }
+    .register-now .register-contact-form {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+      flex: 0 0 45%;
+      min-width: 45%;
+      width: 45%;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 6px; }
+      @media only screen and (max-width: 767px) {
+        .register-now .register-contact-form {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          min-width: 100%;
+          width: 100%;
+          padding: 15px; } }
+      .register-now .register-contact-form .forms h4 {
+        margin-bottom: 40px; }
+      .register-now .register-contact-form .forms .form-control {
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #ebebeb;
+        height: 40px;
+        padding: 0 20px;
+        color: rgba(0, 0, 0, 0.25);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        display: block; }
+    .register-now .register-now-countdown {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+      flex: 0 0 45%;
+      min-width: 45%;
+      width: 45%; }
+      @media only screen and (max-width: 767px) {
+        .register-now .register-now-countdown {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          min-width: 100%;
+          width: 100%; } }
+      .register-now .register-now-countdown h3 {
+        font-size: 30px;
+        margin-bottom: 15px; }
+      .register-now .register-now-countdown p {
+        margin-bottom: 0; }
+      .register-now .register-now-countdown .register-countdown {
+        display: block;
+        margin-top: 50px; }
+      .register-now .register-now-countdown .events-cd div {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 110px;
+        flex: 0 0 110px;
+        min-width: 110px;
+        width: 110px;
+        padding: 15px 0;
+        text-align: center;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        margin-right: 12px;
+        font-size: 36px;
+        font-weight: 700;
+        color: #3762f0; }
+        .register-now .register-now-countdown .events-cd div span {
+          margin-top: 0;
+          color: rgba(255, 255, 255, 0.7);
+          font-size: 18px;
+          font-weight: 700;
+          display: block; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .register-now .register-now-countdown .events-cd div {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 80px;
+            flex: 0 0 80px;
+            min-width: 80px;
+            width: 80px;
+            font-size: 24px; }
+            .register-now .register-now-countdown .events-cd div span {
+              font-size: 14px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .register-now .register-now-countdown .events-cd div {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 60px;
+            flex: 0 0 60px;
+            min-width: 60px;
+            width: 60px;
+            font-size: 18px; }
+            .register-now .register-now-countdown .events-cd div span {
+              font-size: 12px; } }
+        @media only screen and (max-width: 767px) {
+          .register-now .register-now-countdown .events-cd div {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 60px;
+            flex: 0 0 60px;
+            min-width: 60px;
+            width: 60px;
+            font-size: 18px; }
+            .register-now .register-now-countdown .events-cd div span {
+              font-size: 12px; } }
